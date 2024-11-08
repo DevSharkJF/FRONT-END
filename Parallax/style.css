@@ -1,0 +1,80 @@
+body, html {
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    color: #777;
+    height: 100%;
+}
+
+.conteudo {
+    color: #777;
+    text-align: justify;
+    background-color: white;
+    padding: 50px 80px;
+    background-image: url(imagens/fundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1 {
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+    text-shadow: 3px 3px black;
+}
+
+p {
+    margin-bottom: 20px;
+    color: white;
+}
+
+li {
+    color: white;
+}
+
+/* EFEITO PARALLAX */
+
+.imagem_1, .imagem_2, .imagem_3, .imagem_4, .imagem_5 {
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+.imagem_1 {
+    background-image: url(imagens/tubarao.png);
+}
+
+.imagem_2 {
+    background-image: url(imagens/ataque.jpg);
+}
+
+.imagem_3 {
+    background-image: url(imagens/tipos.jpg);
+}
+
+.imagem_4 {
+    background-image: url(imagens/mega.jpg);
+}
+
+.imagem_5 {
+    background-image: url(imagens/fundo_mar.gif);
+}
+
+.configuracao-titulo {
+    position: absolute;
+    left: 0;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+}
+
+.configuracao-titulo span.titulo {
+    color: white;
+    background-color: blue;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
